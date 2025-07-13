@@ -1,0 +1,58 @@
+.container1 {
+  padding: 40px 20px;
+  background: #f2f9ff;
+  text-align: center;
+}
+
+.container1 h1 {
+   font-size: 2.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #015c9d;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.office-bearers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.profile {
+  width: 220px;
+  background: linear-gradient(135deg, #cbefff, #dff6ff);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.profile img {
+  width: 180px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #00bfff;
+  margin-bottom: 10px;
+}
+
+.profile .name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.profile .role {
+  font-size: 0.95rem;
+  color: #555;
+  font-family: 'Poppins', sans-serif;
+}

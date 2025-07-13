@@ -1,0 +1,82 @@
+.achievements-section {
+  padding: 40px 20px;
+  background: #f2f9ff;
+}
+
+.achievements-heading {
+ font-size: 2.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #015c9d;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);}
+
+.achievements-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.menu-item-card {
+  background: linear-gradient(135deg, #cbefff, #dff6ff);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  transition: transform 0.2s;
+  min-height: 560px;
+  position: relative;
+}
+
+.menu-item-card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-item-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 12px 10px 8px;
+  color: #333;
+}
+
+.card-description {
+  font-size: 0.95rem;
+  color: #333;
+  padding: 0 16px;
+  text-align: justify;
+}
+
+.readmore-container {
+  margin-top: auto;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.butn {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.butn:hover {
+  background-color: #f57c00;
+}
