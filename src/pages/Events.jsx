@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 import './Events.css';
 
-// Optional — remove if not used
-const EventCard = ({ title, date, children }) => {
-  const [expanded, setExpanded] = useState(false);
-  return (
-    <div className={`event-card ${expanded ? 'expanded' : ''}`}>
-      <div className="event-header" onClick={() => setExpanded(!expanded)}>
-        <h3>{title}</h3>
-        <span>{date}</span>
-        <button className="toggle-btn">{expanded ? '−' : '+'}</button>
-      </div>
-      {expanded && <div className="event-details">{children}</div>}
-    </div>
-  );
-};
+// // Optional — remove if not used
+// const EventCard = ({ title, date, children }) => {
+//   const [expanded, setExpanded] = useState(false);
+//   return (
+//     <div className={`event-card ${expanded ? 'expanded' : ''}`}>
+//       <div className="event-header" onClick={() => setExpanded(!expanded)}>
+//         <h3>{title}</h3>
+//         <span>{date}</span>
+//         <button className="toggle-btn">{expanded ? '−' : '+'}</button>
+//       </div>
+//       {expanded && <div className="event-details">{children}</div>}
+//     </div>
+//   );
+// };
 
 const QuizCard = () => {
   const [showMore, setShowMore] = useState(false);
@@ -761,7 +761,7 @@ const Events = () => {
 
        {activeTab === 'past' && (
   <>
-     <h2 className="wep-heading" style={{ marginTop: '40px' }}></h2>
+    
     <div className="conducted-events-grid">
       <Idt2 />
       <Symposium />
