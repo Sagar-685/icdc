@@ -732,6 +732,381 @@ Each student team enthusiastically presented their design thinking-based project
     </div>
   );
 };
+const Bridge = () => {
+  const [showMore, setShowMore] = useState(false);
+  return (
+    <div className="menu-item-card">
+      <img
+        className="menu-item-image"
+        src="/events_images/bridge.jpg"
+        alt="Quiz Poster"
+      />
+      <h3 className="menu-card-title">Bridge the gap-Basic circuits analysis-27th September 2025 </h3>
+      {showMore && (
+        <p style={{ padding: '0 16px', fontSize: '0.95rem', color: '#333' }}>
+          ✨ Knowledge Sharing Platform by DECCTEROUS IC Design Club ✨
+
+ICDC successfully organized the program "Bridging the Gap – A Journey through Basic Circuits and Analysis" on 27th September 2025 for third-semester ECE students.
+The session focused on basic diode circuits and their analysis, aiming to strengthen students’ fundamentals in electronic circuit analysis and prepare them for competitive exams and placements.
+💡 Highlights:
+Engaging discussions on diode-based circuits
+Active problem-solving sessions
+Participation from 27 enthusiastic students
+We are excited to announce that the second session will be conducted in October, diving into advanced-level concepts with simulations.
+A big thanks to all the participants for your energy and active engagement!</p>
+      )}
+      <div className="readmore-container">
+          {showMore && (
+          <a
+            href="https://www.linkedin.com/posts/dr-remya-jayachandran-6b8aab1b3_knowledgesharing-icdesign-circuitanalysis-activity-7378643489238069249-ohzP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEanTRIB3vU16u2GeeIMEtdfsqTNGgpCqk4"
+            target="_blank"
+            rel="noreferrer"
+            className="butn"
+            style={{ marginRight: '10px' }}
+          >
+            More
+          </a>
+        )}
+        <button className="butn" onClick={() => setShowMore(!showMore)}>
+          {showMore ? 'Read less' : 'Read more'}
+        </button>
+      </div>
+    </div>
+  );
+};
+const Open= () => {
+  const [showMore, setShowMore] = useState(false);
+  return (
+    <div className="menu-item-card">
+      <img
+        className="menu-item-image"
+        src="/events_images/open.jpg"
+        alt="Quiz Poster"
+      />
+      <h3 className="menu-card-title">Open Book exam(7th sem)-29th September 2025 </h3>
+      {showMore && (
+        <p style={{ padding: '0 16px', fontSize: '0.95rem', color: '#333' }}>
+          💡 Learning through Brainstorming Activity
+As part of the elective subject Mixed-Signal Circuit Design, we conducted an open-book exam with a unique approach to encourage teamwork and higher-order thinking.
+📘 Exam Structure:
+Topics: Sample & Hold Circuits, Comparators, Charge Pumps, and gm/Id methodology for analog design.
+Question Level: L3 & L4 design-oriented problems.
+Format: 10 questions in total; students solved any 4 within 40 minutes.
+Teams of 3 students (total 7 teams) collaborated using class notes and textbooks (hard copies only). Online resources were restricted to encourage original thinking.
+
+🎯 Objective:
+ To build problem-solving skills through team-based learning, pushing students to apply design concepts at higher levels.
+
+📊 Follow-up:
+ An online quiz at a basic level was also conducted to reinforce fundamentals.
+✨ Students from the 7th semester ECE (21 out of 22 students) actively engaged, discussed, and collaborated—making the session a great example of best practices in teaching and learning to enhance technical skills. This is an initiative from Deccterous NIE ICDC student club. !</p>
+      )}
+      <div className="readmore-container">
+          {showMore && (
+          <a
+            href="https://www.linkedin.com/posts/dr-remya-jayachandran-6b8aab1b3_ece-mixedsignaldesign-teamlearning-activity-7378458196857815040-69vK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEanTRIB3vU16u2GeeIMEtdfsqTNGgpCqk4"
+            target="_blank"
+            rel="noreferrer"
+            className="butn"
+            style={{ marginRight: '10px' }}
+          >
+            More
+          </a>
+        )}
+        <button className="butn" onClick={() => setShowMore(!showMore)}>
+          {showMore ? 'Read less' : 'Read more'}
+        </button>
+      </div>
+    </div>
+  );
+};
+const Open1= () => {
+  const [showMore, setShowMore] = useState(false);
+  return (
+    <div className="menu-item-card">
+      <img
+        className="menu-item-image"
+        src="/events_images/open1.jpg"
+        alt="Quiz Poster"
+      />
+      <h3 className="menu-card-title">Open Book exam(3rd sem)-17th October 2025 </h3>
+      {showMore && (
+        <p style={{ padding: '0 16px', fontSize: '0.95rem', color: '#333' }}>
+          Learning through understanding themselves how much you actually learned
+
+Open book Exam was conducted for third semester ECE students for the subject Network Analysis, first module- kvl, kcl, Mesh, Nodal etc. 
+
+Two questions were given in L3 level, students can use any method to find the current and voltages. Students can use materials in hardcopy to refer. No mobile phones, no discussion with others. 
+45 minutes to complete the two questions. Additionally two questions were given as bonus questions for those who complete the exam before 30 minutes. 
+
+This is conducted to make the students realize how much they understood the concept. In regular class and tutorial most of them solve the questions as they are guided either by faculty or by their friends. 
+
+This open book exam was to encourage the thought process, realize the need for systematic approach, practice as many as possible. 
+
+62/67 participated in this open book. 
+
+This is one of the best practices adopted to encourage the students learning process. </p>
+      )}
+      <div className="readmore-container">
+          {showMore && (
+          <a
+            href="https://www.linkedin.com/posts/dr-remya-jayachandran-6b8aab1b3_learning-through-understanding-themselves-activity-7386351118890700800-6k20?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEanTRIB3vU16u2GeeIMEtdfsqTNGgpCqk4"
+            target="_blank"
+            rel="noreferrer"
+            className="butn"
+            style={{ marginRight: '10px' }}
+          >
+            More
+          </a>
+        )}
+        <button className="butn" onClick={() => setShowMore(!showMore)}>
+          {showMore ? 'Read less' : 'Read more'}
+        </button>
+      </div>
+    </div>
+  );
+};
+const Intro= () => {
+  const [showMore, setShowMore] = useState(false);
+  return (
+    <div className="menu-item-card">
+      <img
+        className="menu-item-image"
+        src="/events_images/intro.jpg"
+        alt="Quiz Poster"
+      />
+      <h3 className="menu-card-title">Intro to Circuits-13th & 14th November 2025 </h3>
+      {showMore && (
+        <p style={{ padding: '0 16px', fontSize: '0.95rem', color: '#333' }}>
+         ✨IC Design Club, in association with the Department of Electronics & Communication Engineering, successfully conducted “INTRO TO CIRCUITS” on 13 & 14 November 2025 at GJB!✨
+
+This two-day technical event was specially designed for 1st and 2nd year EC students who are curious to explore how circuits truly work — from fundamentals to simulation and real-time problem-solving.
+🔹 Day 1: Foundations & LTSpice Simulation
+Students were introduced to the basics of circuit analysis through Kirchhoff’s Laws, followed by a detailed, hands-on session on LTSpice, one of the most essential simulation tools used by electronics engineers worldwide.
+Participants also received exclusive LTSpice example circuits and guided simulation files, enabling them to continue practicing and building confidence even after the workshop.
+🔹 Day 2: Competition & Skill Test
+The second day featured an engaging quiz-style challenge, where students applied Day 1 concepts, solved circuit problems, and showcased their analytical and logical thinking skills. The competitive spirit, teamwork, and enthusiasm displayed by the participants made the event even more exciting with winners earning recognition and prizes. 
+A heartfelt thank you to our faculty coordinators, Dr. Remya Jayachandran and Dr. Ashok K, and to our student coordinators, for making this event a success.
+And a special appreciation to all the participants for their energy, curiosity, and active engagement throughout the two days.</p>
+      )}
+      <div className="readmore-container">
+          {showMore && (
+          <a
+            href="https://www.linkedin.com/posts/deccterous-nie_icdesignclub-icdc-introtocircuits-ugcPost-7395142506797133824-KXa_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEanTRIB3vU16u2GeeIMEtdfsqTNGgpCqk4"
+            target="_blank"
+            rel="noreferrer"
+            className="butn"
+            style={{ marginRight: '10px' }}
+          >
+            More
+          </a>
+        )}
+        <button className="butn" onClick={() => setShowMore(!showMore)}>
+          {showMore ? 'Read less' : 'Read more'}
+        </button>
+      </div>
+    </div>
+  );
+};
+const How= () => {
+  const [showMore, setShowMore] = useState(false);
+  return (
+    <div className="menu-item-card">
+      <img
+        className="menu-item-image"
+        src="/events_images/how.jpg"
+        alt="Quiz Poster"
+      />
+      <h3 className="menu-card-title"> How Does Your Computer Remember Things?-15th November 2025 </h3>
+      {showMore && (
+        <p style={{ padding: '0 16px', fontSize: '0.95rem', color: '#333' }}>
+         ✨ How Does Your Computer Remember Things? – A Hands-On Memory Session! ✨
+
+The IC Design Club, in association with the Department of ECE, successfully conducted a technical session on Memory Fundamentals and Bitcell Design on 15th November 2025 at NRN.
+
+Led by Mr. Shiva Shankar L, Associate Design Engineer (Memory Design) at Insemi Technology Services Pvt Ltd, the workshop gave students valuable insights into how memory cells store data, bitcell operation, and real-world VLSI design practices. 💾⚡
+
+The event saw enthusiastic participation from 1st and 2nd-year EC students, creating a collaborative and curiosity-driven learning environment. 🌟
+
+Special thanks to our faculty coordinators Dr. Remya Jayachandran and Dr. Ashok K for their continuous support and guidance. 
+
+</p>
+      )}
+      <div className="readmore-container">
+          {showMore && (
+          <a
+            href="https://www.linkedin.com/posts/deccterous-nie_icdcnie-memorydesign-bitcelldesign-ugcPost-7395480772012511232-Ihfk?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEanTRIB3vU16u2GeeIMEtdfsqTNGgpCqk4"
+            target="_blank"
+            rel="noreferrer"
+            className="butn"
+            style={{ marginRight: '10px' }}
+          >
+            More
+          </a>
+        )}
+        <button className="butn" onClick={() => setShowMore(!showMore)}>
+          {showMore ? 'Read less' : 'Read more'}
+        </button>
+      </div>
+    </div>
+  );
+};
+const Mixed= () => {
+  const [showMore, setShowMore] = useState(false);
+  return (
+    <div className="menu-item-card">
+      <img
+        className="menu-item-image"
+        src="/events_images/mixedtech.jpg"
+        alt="Quiz Poster"
+      />
+      <h3 className="menu-card-title">Mixed Signal Innovate 2025-8th and 9th November 2025 </h3>
+      {showMore && (
+        <p style={{ padding: '0 16px', fontSize: '0.95rem', color: '#333' }}>
+         The Deccterous NIE IC Design Club successfully organized “Mixed Signal Innovate 2025”, a Technical Paper Presentation, in collaboration with the Department of Electronics and Communication Engineering, NIE Mysuru, on 8th and 9th December 2025.
+
+This event was conducted as part of Experiential Learning in the elective course Mixed Signal Circuit Design, offered to ECE students by Dr. Remya Jayachandran. The design project was structured in a stage-wise manner, with intermediate internal evaluations, enabling students to progressively develop their understanding and analytical skills.
+
+Paper topics were selected directly from the course syllabus, allowing students to carry out in-depth analysis of mixed-signal circuits and strengthen their conceptual and practical knowledge.
+
+The final evaluation was carried out by external evaluators from industry, who are alumni of NIE currently working in core companies. Their expert feedback provided valuable industry perspective to the students.
+
+This initiative stands as a best practice aimed at enhancing the teaching–learning process through outcome-based and experiential pedagogy.
+
+We sincerely thank Mr. Charan M S and Ms. Bhumika Y for accepting our invitation and serving as External Evaluators from Industry.
+
+Winners – Mixed Signal Innovate 2025 (Paper Presentation):
+ 🏆 Shalini K S and Shraddha S
+Special Award:
+ ⭐ Chaitra R and Nishchitha
+
+Big thanks to our student coordinator SANJAY S HANCHINAL and Bheema Kashyapa Sharma Divana for organizing this event. 
+
+I'm really grateful to my dear students for taking up Mixed Signal Circuit Design as an elective and participating actively in TLP. The winners were awarded with a cash prize of Rs. 1200/- and Special award Rs. 500/- as a token of appreciation which is sponsored by our Alumni. 
+Best wishes dear students, hope you had a great learning experience.
+</p>
+      )}
+      <div className="readmore-container">
+          {showMore && (
+          <a
+            href="https://www.linkedin.com/posts/dr-remya-jayachandran-6b8aab1b3_the-deccterous-nie-ic-design-club-successfully-activity-7405581049038045184-Veb5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEanTRIB3vU16u2GeeIMEtdfsqTNGgpCqk4"
+            target="_blank"
+            rel="noreferrer"
+            className="butn"
+            style={{ marginRight: '10px' }}
+          >
+            More
+          </a>
+        )}
+        <button className="butn" onClick={() => setShowMore(!showMore)}>
+          {showMore ? 'Read less' : 'Read more'}
+        </button>
+      </div>
+    </div>
+  );
+};
+const Poster= () => {
+  const [showMore, setShowMore] = useState(false);
+  return (
+    <div className="menu-item-card">
+      <img
+        className="menu-item-image"
+        src="/events_images/poster_network.jpg"
+        alt="Quiz Poster"
+      />
+      <h3 className="menu-card-title"> Experiential Learning Activity in Network Analysis -3rd January 2026 </h3>
+      {showMore && (
+        <p style={{ padding: '0 16px', fontSize: '0.95rem', color: '#333' }}>
+        ✨ Experiential Learning Activity in Network Analysis (ECE – III Semester) ✨
+Network Analysis is a core course offered in the third semester of the ECE program and forms a strong foundation for Electronics and Communication Engineering. A solid understanding of circuit analysis is crucial for students to effectively grasp advanced subjects in the ECE domain.
+With the objective of strengthening fundamentals and bridging theory with practice, a structured Experiential Learning (EL) activity was designed and implemented in an outcome-oriented manner.
+📌 Implementation Highlights:
+ At the beginning of the semester, students were clearly briefed about the EL evaluation pattern and expectations. The activity was executed in three well-defined phases:
+🔹 Phase 1: Theoretical analysis of assigned problem statements followed by verification using simulation tools.
+ 🔹 Phase 2: Concept explanation through hardware demonstrations and application-based validation.
+ 🔹 Phase 3 (Final Evaluation): Comprehensive assessment involving theoretical analysis, simulation, hardware-based proof of concept, verification and validation, application development, and preparation of innovative digital posters for documentation and presentation.
+👥 Participation & Mentoring:
+18 student teams worked on four problem statements, with each problem handled by 4–5 teams.
+To encourage peer learning and leadership, five senior student mentors from the fifth semester ECE guided the teams, with one mentor assigned per problem statement.
+🎓 Evaluation:
+ The final evaluation was conducted by industry experts (alumni) and academic professionals, ensuring a balanced, rigorous, and industry-relevant assessment process.
+🌟 Outcomes:
+ This pilot implementation of experiential learning yielded highly encouraging results:
+Significant improvement in students’ performance in Test-2
+Enhanced conceptual clarity, teamwork, and problem-solving skills
+Remarkable creativity and technical depth are reflected in the digital posters
+🙏 I sincerely acknowledge the support of NIE Teaching Learning Centre (TLC) and the Department of ECE for promoting innovative teaching–learning practices. Student feedback was overwhelmingly positive, and evaluators appreciated the depth of understanding demonstrated through proof-of-concept implementations, application validation, and effective senior–junior mentoring.
+Evaluators: Charan M S, Sangeetha A Shayana, VINAY K GOWDA, Sahana B, Dr. Ashok K, Smrithi Vijayan, Dr. Haseena
+Student Volunteers: Usman,Sinchana, Vaishnavi, Sudeep, Nikhil, Jeevan, Pavan
+Student Coordinators: Bheema Kashyapa Sharma Divana, Jayesh Gidwani, HN Rashmitha, DISHA N BHUSHANA 
+This initiative reaffirmed the value of experiential learning in strengthening fundamentals and fostering collaborative, application-driven learning in engineering education.
+</p>
+      )}
+      <div className="readmore-container">
+          {showMore && (
+          <a
+            href="https://www.linkedin.com/posts/dr-remya-jayachandran-6b8aab1b3_networkanalysis-ece-outcomebasededucation-activity-7415667133088493568-uGhm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEanTRIB3vU16u2GeeIMEtdfsqTNGgpCqk4"
+            target="_blank"
+            rel="noreferrer"
+            className="butn"
+            style={{ marginRight: '10px' }}
+          >
+            More
+          </a>
+        )}
+        <button className="butn" onClick={() => setShowMore(!showMore)}>
+          {showMore ? 'Read less' : 'Read more'}
+        </button>
+      </div>
+    </div>
+  );
+};
+const Icpack= () => {
+  const [showMore, setShowMore] = useState(false);
+  return (
+    <div className="menu-item-card">
+      <img
+        className="menu-item-image"
+        src="/events_images/icpack.jpg"
+        alt="Quiz Poster"
+      />
+      <h3 className="menu-card-title">Technical Talk on Power Management IPs – LDO Design, followed by Hands-On IC Packaging Session using ANSYS-28th November 2025 </h3>
+      {showMore && (
+        <p style={{ padding: '0 16px', fontSize: '0.95rem', color: '#333' }}>
+        he Decterous IC Design Club proudly hosted an exciting and power-packed technical event:
+“Technical Talk on Power Management IPs – LDO Design, followed by Hands-On IC Packaging Session using ANSYS”
+on 28th November 2025
+
+This event offered the perfect blend of theory and practical exposure for students passionate about VLSI, Chip Design, Electronics, and Core Engineering.
+The session featured an insightful industry talk by Mr. Kashyap Bellur, Director, IP2SoC, Bangalore, who shared his expertise on Power Management IPs and the applications of CMOS LDOs in FPGA systems. His deep industry experience provided participants with valuable real-world understanding of modern power solutions.
+This was followed by a hands-on IC Packaging simulation workshop using ANSYS, led by Dr. Remya Jayachandran, Faculty, Department of ECE, NIE. Participants gained practical exposure to IC packaging workflows, boosting their technical confidence and design skills.
+We extend our heartfelt thanks to the NIE Management for their continuous encouragement and support in conducting such impactful technical events.
+
+A special appreciation to our student coordinators Bheema Kashyapa Sharma Divana and SANJAY S HANCHINAL H for their efforts in organizing the event. A special thanks to Dr. Ashok K, faculty coordinator and ECE Department for the encouragement and support. 
+Finally, we thank all the participants for their enthusiasm and active involvement, which made the event a grand success!
+
+</p>
+      )}
+      <div className="readmore-container">
+          {showMore && (
+          <a
+            href="https://www.linkedin.com/posts/dr-remya-jayachandran-6b8aab1b3_the-decterous-ic-design-club-proudly-hosted-activity-7402884643974234112-SGCx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEanTRIB3vU16u2GeeIMEtdfsqTNGgpCqk4"
+            target="_blank"
+            rel="noreferrer"
+            className="butn"
+            style={{ marginRight: '10px' }}
+          >
+            More
+          </a>
+        )}
+        <button className="butn" onClick={() => setShowMore(!showMore)}>
+          {showMore ? 'Read less' : 'Read more'}
+        </button>
+      </div>
+    </div>
+  );
+};
+
 
 const Events = () => {
   const [activeTab, setActiveTab] = useState('upcoming');
@@ -743,26 +1118,35 @@ const Events = () => {
         <button className={`tab-button ${activeTab === 'upcoming' ? 'active' : ''}`} onClick={() => setActiveTab('upcoming')}>Upcoming Events</button>
         <button className={`tab-button ${activeTab === 'present' ? 'active' : ''}`} onClick={() => setActiveTab('present')}>Present Events</button>
         <button className={`tab-button ${activeTab === 'past' ? 'active' : ''}`} onClick={() => setActiveTab('past')}>Past Events</button>
-        <button className={`tab-button ${activeTab === 'winners' ? 'active' : ''}`} onClick={() => setActiveTab('winners')}>Winners</button>
+        
       </div>
 
-      <div className="tab-content">
-        {activeTab === 'upcoming' && (
-          <div className="tab-placeholder">
-            <p>🚀 Stay tuned! Exciting upcoming events will be announced here soon.</p>
-          </div>
-        )}
+      {activeTab === 'upcoming' && (
+  <div className="tab-placeholder">
+    <p>🚀 Stay tuned! Upcoming events will be announced soon.</p>
+  </div>
+)}
+
+
 
         {activeTab === 'present' && (
-          <div className="tab-placeholder">
-            <p>📢 There are no ongoing events right now. Check back soon!</p>
-          </div>
-        )}
+  <div className="tab-placeholder">
+    <p>⏳ No present events going on right now.</p>
+  </div>
+)}
 
        {activeTab === 'past' && (
   <>
     
     <div className="conducted-events-grid">
+      <Poster/>
+      <Mixed/>
+      <Icpack/>
+      <How/>
+      <Intro/>
+      <Open1/>
+      <Open/>
+      <Bridge/>
       <Idt2 />
       <Symposium />
       <Explearn/>
@@ -783,39 +1167,9 @@ const Events = () => {
   </>
 )}
 
-        {activeTab === 'winners' && (
-          <div className="announcement-section">
-            <h1 className="announcement-heading">PAPER PRESENTATION WINNERS</h1>
-            <div className="scrolling-banner paper-banner">
-              <p>🎉 Congratulations to the Winners! 👏 🏆 &nbsp;&nbsp;
-        We are thrilled to announce the winners of the Paper Presentation Event. &nbsp;&nbsp;
-        Track 1: Best paper - Ann Maria Jestine and team. Special award - Vinay Gowda and team, M S Varsha and team. &nbsp;&nbsp;
-        Track 2: Best paper - Rashmi R and team. Special award - S Sudeep Kumar and team. &nbsp;&nbsp;
-        Track 3: Best paper - Nidhishree and team. Special award - Hemashree. &nbsp;&nbsp;
-        Track 4: Best paper - Pushpa M and team. &nbsp;&nbsp;
-        Track 5: Best paper - Pooja and team. Special award - Pavan R and team. &nbsp;&nbsp;
-        🏅 Best Paper Award winners receive Rs.1000/- &nbsp;&nbsp;
-        Thank you to all participants for your amazing efforts! 🎊</p>
-            </div>
-            <h1 className="announcement-heading">PROJECT EXHIBITION WINNERS</h1>
-            <div className="scrolling-banner project-banner">
-              <p>🛠️ NIE SRS 2025 - Project Exhibition Results 🛠️ &nbsp;&nbsp;
-        BEST PROJECT award from each track + Special awards (based on jury feedback & fundamentals) &nbsp;&nbsp;
-        🏆 Track 1: Sampreeth G R, Pavan R, Pooja K N, Pooja K A &nbsp;&nbsp;
-        🏆 Track 2: C N Veeresh, M Niranjan, Mallikarjun V R, Nitish &nbsp;&nbsp;
-        🏆 Track 3: Pranav Maruti Shanbhag, Aditya Y, Ballambettu Milan, Shankar Bhat, Anirudh Jayaprakash &nbsp;&nbsp;
-        🏆 Track 4: Daivik I Vinayaka, Karthik K Prasad, M B Nishanth Aiyappa &nbsp;&nbsp;
-        🌟 Special Awards: Advaith Shankar Bhat, Nutan Ganesh Hegde, Sanmith Ravinarayan Rao, MD Reyan &nbsp;&nbsp;
-        Harshitha Belavadi, Manjunath HN, Rashmitha, Ananya J, Neha HS &nbsp;&nbsp;
-        A S Gouthami, B P Sapthami, Jaana Shridhara, Abhinaya Inamdar &nbsp;&nbsp;
-        Nidhishree, Kavya G, Hemashree G N, Madeena Bi &nbsp;&nbsp;
-        🪙 Rs.1000 for Best Project winners | Rs.500 for Special Award winners 💰 &nbsp;&nbsp;
-        Huge congrats to all for your creativity and innovation! 🚀</p>
-            </div>
-          </div>
-        )}
+        
       </div>
-    </div>
+    
   );
 };
 

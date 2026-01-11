@@ -4,171 +4,95 @@ import './OfficeBearers.css';
 
 const officeBearers = [
  {
-  name: 'Sujala B R',
+  name: 'Pooja KN',
   role: 'President',
-  image: 'ob_images/Sujala-B-R.jpg',
+  image: 'ob_images/Pooja KN.jpg',
 },
 {
-  name: 'Sanjay Hanchinal',
+  name: 'Disha',
   role: 'Vice-President',
-  image: 'ob_images/sanjay.jpg',
+  image: 'ob_images/Disha.jpg',
 },
 {
-  name: 'Bheema K S',
-  role: 'Secretary',
-  image: 'ob_images/bheema.jpg',
-},
-{
-  name: 'Shesha Krishna',
+  name: 'Yashas Kumar',
   role: 'Treasurer',
-  image: 'ob_images/shesha.jpg',
+  image: 'ob_images/Yashas kumar .jpg',
 },
 {
-  name: 'Preksha',
-  role: 'Registration Head',
-  image: 'ob_images/preksha.jpg',
+  name: 'Harsha B',
+  role: 'Secretary & Event Committee lead',
+  image: 'ob_images/HARSHA B.jpg',
 },
 {
-  name: 'Vaishnavi Purshottam',
-  role: 'Registration Head',
-  image: 'ob_images/vaishnavi.jpg',
+  name: 'HN Rashmitha',
+  role: 'Event Committee lead',
+  image: 'ob_images/HN Rashmitha.jpg',
 },
 {
-  name: 'DhanyaShree',
-  role: 'Registration Head',
-  image: 'ob_images/dhanya.jpg',
+  name: 'Akash HA',
+  role: 'Event Committee lead',
+  image: 'ob_images/Akash H A.jpg',
 },
 {
-  name: 'Thanushree M S',
-  role: 'Event Organizers',
-  image: 'ob_images/thanushree.jpg',
+  name: 'Nikhil K M',
+  role: 'Event Committee lead',
+  image: 'ob_images/NIKHIL K M.jpg',
 },
 {
-  name: 'Shrilakshmi',
-  role: 'Event Organizers',
-  image: 'ob_images/lakshmi.jpg',
+  name: "Sinchana G",
+  role: "Technial Committee Head",
+  image: "ob_images/Sinchana G .jpg"
 },
 {
-  name: 'Skandan Bharadwaj K',
-  role: 'Publicity,Marketing,Sponsorship',
-  image: 'ob_images/skandan.jpg',
+  name: "Nidhishree",
+  role: "Technial Committee Head",
+  image: "ob_images/Nidhishree.jpg"
 },
 {
-  name: 'Satyadutt M S',
-  role: 'Publicity,Marketing,Sponsorship',
-  image: 'ob_images/satya.jpg',
+  name: "Pavan Maruthi Mahale",
+  role: "Technial Committee Head",
+  image: "ob_images/Pavan Maruti Mahale.jpg"
 },
 {
-  name: "Jayesh Gidwani",
-  role: "Technial Head",
-  image: "ob_images/jayesh.jpg"
+  name: "Manjunath R",
+  role: "Industry Visit & Project Committe lead",
+  image: "ob_images/Manjunath R.jpg"
 },
 {
-  name: "Nidishree",
-  role: "Technial Head",
-  image: "ob_images/nidhi.jpg"
+  name: "Pavan R",
+  role: "Industry Visit & Project Committe lead",
+  image: "ob_images/R Pavan.JPG"
 },
 {
-  name: "Adrutha",
-  role: "Project & Industry Visit",
-  image: "ob_images/adrutha.jpg"
+  name: "Jeevan Kamsagar",
+  role: "Industry Visit & Project Committe lead",
+  image: "ob_images/Jeevan Kamsagar H.jpg"
 },
 {
-  name: "Pranav",
-  role: "Project & Industry Visit",
-  image: "ob_images/pranav.jpg"
-},
-
-{
-  name: "Vishanth",
-  role: "Project & Industry Visit",
-  image: "ob_images/vishanth.jpg"
-},
-{
-  name: "Shraddha",
-  role: "IdeaLab Projects",
-  image: "ob_images/shraddha.jpg"
-},
-{
-  name: "Shivabasavesh",
-  role: "IdeaLab Projects",
-  image: "ob_images/shiva.jpg"
-},
-{
-  name: "Mourya",
-  role: "IdeaLab Projects",
-  image: "ob_images/Mourya P.jpg"
-},
-{
-  name: "Parshuram",
+  name: "Nesara",
   role: "Website & Social Media",
-  image: "ob_images/parshuram.jpg"
+  image: "ob_images/Nesara N .jpg"
 },
 {
-  name: "Sagar Kumar Singh",
+  name: "Tejasvi K",
   role: "Website & Social Media",
-  image: "ob_images/sagar.jpg"
+  image: "ob_images/TEJASVI K.jpg"
 },
 {
-  name: "Anagha",
-  role: "Website & Social Media",
-  image: "ob_images/anagha.jpg"
+  name: "NEHA HS",
+  role: "Design Committee lead",
+  image: "ob_images/Neha H S.jpg"
 },
 {
-  name: "Harshitha B M",
-  role: "Website & Social Media",
-  image: "ob_images/harshitha.jpg"
-},
-{
-  name: "Varshini H R",
-  role: "Hospitality",
-  image: "ob_images/varshini.jpg"
-},
-{
-  name: "Neha S",
-  role: "Hospitality",
-  image: "ob_images/neha.jpg"
-},
-{
-  name: "Hemashree",
-  role: "Hospitality",
-  image: "ob_images/hemashree.jpg"
-},
-{
-  name: "Prekshadeep",
-  role: "Design Creation",
-  image: "ob_images/prekshadeep.jpg"
+  name: "NEHA S Kamal",
+  role: "Design Committee lead",
+  image: "ob_images/NEHA S.jpg"
 },
 {
   name: "Shreyansh Shrivatsav",
-  role: "Design Creation",
-  image: "ob_images/shreyansh.jpg"
+  role: "Design Committee lead",
+  image: "ob_images/Shreyansh_Shrivastava.jpg"
 },
-{
-  name: "Aishwarya",
-  role: "Coding & Programming",
-  image: "ob_images/aishwarya.jpg"
-},
-{
-  name: "Pankaja",
-  role: "Coding & Programming",
-  image: "ob_images/pankaja.jpg"
-},
-{
-  name: "Mehul J",
-  role: "Coding & Programming",
-  image: "ob_images/mehul.jpg"
-},
-{
-  name: "Sanjana",
-  role: "Stage Committee",
-  image: "ob_images/sanjana.jpg"
-},
-{
-  name: "Harsha B",
-  role: "Stage Committee",
-  image: "ob_images/harsha.jpg"
-}
 ];
 
 const OfficeBearers = () => {

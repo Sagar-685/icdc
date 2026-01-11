@@ -13,7 +13,9 @@ const AdvisoryCommittee = () => {
     { name: 'Dr. Shaeen Kalathil', role: 'Princess Nourah Bint University, Saudi Arabia', link: 'https://www.linkedin.com/in/shaeen-k-a5587924' },
     { name: 'Dr. Deepak', role: 'CEWIT, IIT Madras', link: '#' },
     { name: 'Mr. Annangi Saikiran Babu', role: 'Deloitte Consultancy', link: 'https://www.linkedin.com/in/annangisaikiranbabu' },
-    { name: 'Dr. Arjun Hari M', role: 'Facility Technologist, CeNSE-IISc-Bangalore', link: 'https://www.linkedin.com/in/arjun-hari-22ab176b' }
+    { name: 'Dr. Arjun Hari M', role: 'Facility Technologist, CeNSE-IISc-Bangalore', link: 'https://www.linkedin.com/in/arjun-hari-22ab176b' },   
+    { name: 'Mr.Shivashanker L', role: 'Associate Design Engineer,Insemi Technology Services Pvt. Ltd.', link: 'https://www.linkedin.com/in/shivashankarl/' },    
+
   ];
 
   const alumniMembers = [

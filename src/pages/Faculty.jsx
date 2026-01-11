@@ -2,32 +2,34 @@ import React from 'react';
 import './Faculty.css';
 
 const facultyData = [
-  {
-    name: 'Dr.Salila Hegde',
-    position: 'Associate Professor, ECE, NIE MYSORE',
-    imgSrc: '/faculty_images/salilamam.jpg',
-    linkedin: 'https://www.linkedin.com/in/salila-hegde-425035146',
-  },
-  {
+   {
     name: 'Dr.Remya Jayachandran',
-    position: 'Assistant Professor , ECE, NIE MYSORE',
+    position: 'Assistant Professor,ECE,NIE MYSORE',
     imgSrc: '/faculty_images/remyamam.jpg',
     linkedin: 'https://www.linkedin.com/in/remya-jayachandran-6b8aab1b3',
   },
   {
+    name: 'Dr.Ashok K',
+    position: 'Assistant Professor,ECE,NIE MYSORE',
+    imgSrc: '/faculty_images/ashok.jpg',
+    linkedin: 'https://www.linkedin.com/in/salila-hegde-425035146',
+  },
+  {
+    name: 'Dr.Rajalekshmi Kishore',
+    position: 'HOD,ECE,NIE MYSORE',
+    imgSrc: '/faculty_images/lakshmimam.jpg',
+    linkedin: 'https://www.linkedin.com/in/salila-hegde-425035146',
+  },
+  {
     name: 'Dr.Nitesh K A',
-    position: 'Assistant Professor , ECE, NIE MYSORE',
+    position: 'Faculty coordinator Idealab,NIE MYSORE',
     imgSrc: '/faculty_images/nitishsir.jpg',
   },
   {
-    name: 'Dr.Pawan Bharadwaj',
-    position: 'Assistant Professor , ECE, NIE MYSORE',
-    imgSrc: '/faculty_images/pawan.jpg',
-  },
-  {
-    name: 'Dr.Divya S',
-    position: 'Assistant Professor , EEE, NIE MYSORE',
-    imgSrc: '/faculty_images/divyamam.jpg',
+    name: 'Dr.Salila Hegde',
+    position: 'Faculty Advisor(External)',
+    imgSrc: '/faculty_images/salilamam.jpg',
+    linkedin: 'https://www.linkedin.com/in/salila-hegde-425035146',
   },
 ];
 

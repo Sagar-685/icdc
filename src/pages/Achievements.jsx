@@ -36,6 +36,48 @@ const Achievements = () => {
     <div className="achievements-section">
       <h1 className="achievements-heading">ACHIEVEMENTS</h1>
       <div className="achievements-grid">
+         <AchievementCard
+          title="Design and Development of a Low-Cost, Portable Real-Time Audiometer for Accurate Hearing Loss Detection"
+          imgSrc="/achivements_images/aiish.jpg"
+          description=" Happy to share our collaborative project carried out in association with AIISH (All India Institute of Speech and Hearing), Mysuru – Research Institute.
+🔬 Project Title:
+Design and Development of a Low-Cost, Portable Real-Time Audiometer for Accurate Hearing Loss Detection
+👩‍💻 Project Team:
+HN Rashmitha, Neha HS, Ananya J, Govinda V Mirji
+👩‍🏫 Project Guide:
+Dr. Remya Jayachandran
+🏛️ Collaborating Institute:
+AIISH, Mysuru – Research Institute
+We sincerely thank Dr. Ajish K. Abraham  (Professor of Electronics and Acoustics & Dean (Infrastructure, Planning & Support)) and Mr. M S Ravishankar, (Junior Technical Officer) AIISH, Mysuru – Research Institute for their invaluable support, collaboration, and expert research guidance, which played a crucial role in the successful completion of this project. This collaboration provided our students with meaningful exposure to real-world, healthcare-focused engineering research, reinforcing the importance of interdisciplinary innovation for societal impact.
+
+Grateful for this enriching academic–research partnership.
+"
+          moreLink="https://www.linkedin.com/posts/dr-remya-jayachandran-6b8aab1b3_happy-to-share-our-collaborative-project-activity-7408770027459387393-R6Bk?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEanTRIB3vU16u2GeeIMEtdfsqTNGgpCqk4"/> 
+        <AchievementCard
+          title="WITFluenze-2025"
+          imgSrc="/achivements_images/wit1.jpg"
+          description="We are delighted to share that two teams from the Department of Electronics & Communication Engineering, NIE Mysuru, successfully presented their innovative projects at the Albertsons' Young TechMAKER Award Showcase under the theme “AI – From FARM to Table”, held during the WITFluenze 2025 Conference organized by WEquity at Radisson Blu, Outer Ring Road, Bangalore on 20th November 2025, .
+ This year’s conference theme was समAI: Time for AI to Get a Desi Twist!
+
+A total of 17 students and three faculty members from NIE Mysuru actively participated in this women-led tech conference.
+🌟 Achievement Highlight
+ Harshitha S, third-semester ECE student, secured the Second Prize along with a cash award of ₹7,000 for her project “AgriAI”, mentored by Dr. Remya Jayachandran. The project is an extension of the Innovation and Design Thinking initiative.
+🌟 Project Showcase
+ Another team - Bhargavi, Tanu Anand, V Renuka, Vanshika M, Disha P, and Tripthi, all from the third-semester ECE, presented their project “Fusion Future”- presented a live AI model for early detection of pests in coffee plants, mentored by Dr. Remya Jayachandran, the project received enthusiastic appreciation from tech experts and evaluation panelists.
+
+These initiatives were carried out under the IC Design Club – Deccterous NIE, which continually encourages students to explore, innovate, and present their technological skills. 
+
+Our heartfelt gratitude towards Ms. suja warriar, Academic Coordinator WITFluenze-2025 for her inspiration and support to attend this conference
+ We extend our heartfelt gratitude to:
+Dr. Parameshwara S, HoD, ECE, for his unwavering support.
+Dr. Annapoorna V. K. and Prof. Padmini, Professors, CSED, North Campus, for coordinating the program
+Dr. Narendra Sir, CSED North campus for inspiring the students of NIE North Campus to participate in this conference.
+A total of 9 students from NIE South Campus and 8 students from NIE North Campus attended the event.
+
+We also sincerely thank our Principal, Vice Principal, and the NIE Management for continuously motivating our students and providing financial support to help them showcase their talents on such prestigious platforms.
+
+Dr. Remya Jayachandran, Faculty Coordinator"
+          moreLink="https://www.linkedin.com/posts/dr-remya-jayachandran-6b8aab1b3_we-are-delighted-to-share-that-two-teams-activity-7397503919763066880-KFik?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEanTRIB3vU16u2GeeIMEtdfsqTNGgpCqk4"/>
         <AchievementCard
           title="Basic Training in 3D Printing Technology-June 15 2024"
           imgSrc="/achivements_images/3dprint.jpg"
@@ -109,6 +151,7 @@ Dr. Remya Jayachandran,                                                         
             Around 35 ECE students from NIE Mysore showcased their talents in various events. Harshitha B M won the Best Slide Design award, while Ananya D M, Dhanyashree D, Disha R S, and Anagha MK were Runners-up in Model Presentation.
             Congrats to all, especially Pavan, Saloni & team, for their hard work! A great achievement for our club!   ."
           moreLink="https://www.linkedin.com/posts/remya-jayachandran-6b8aab1b3_we-are-delighted-to-share-that-the-students-activity-7248700161269399552-HU-w"/>   
+         
       </div>
     </div>
   );
